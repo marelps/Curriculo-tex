@@ -1,0 +1,132 @@
+\documentclass[]{resume-openfont}
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+% Formatação e posicionamento - Formação acadêmica
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Formatação e posicionamento - Projetos
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+% Formação acadêmica
+\newcommand{\observacao}[1]{\textbf{Observação: } #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Perfil
+%--------------------------------------------------------------
+
+\newcommand{\yourName}{Maria Vitória Garrucho Campos}
+% Titulo do Curriculo
+\newcommand{\yourWebsite}{website.com}
+% Links
+\newcommand{\yourWebsiteLink}{https://marelps.github.io}
+\newcommand{\yourEmail}{vitoriagarrucho@gmail.com}
+\newcommand{\yourPhone}{(13) 99184-6492}
+\newcommand{\githubUserName}{marelps}
+\newcommand{\linkedInUserName}{vitoriagarrucho}
+\newcommand{\behanceUserName}{marelps}
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \href{https://api.whatsapp.com/send?phone=\yourPhone}{\underline{\yourPhone}} $|$ 
+    \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}}  $|$
+    \href{https://behance.net/\behanceUserName}{\underline{behance/\behanceUserName}} 
+\end{center}
+
+%--------------------------------------------------------------
+%     Sobre
+%--------------------------------------------------------------
+%\section{Sobre}
+%Formada em Ciência da Computação e técnico em Informática para Internet, apaixonada em jogos e sempre tentando 
+%\sectionsep
+
+%--------------------------------------------------------------
+%     Objetivo
+%--------------------------------------------------------------
+
+\section{Objetivo}
+A procura da minha primeira oportunidade na área de TI como programadora Front-end, para no futuro eu consiga me especializar nessa área que tenho tanta afinidade.
+\sectionsep
+
+%--------------------------------------------------------------
+%     Formação Acadêmica
+%--------------------------------------------------------------
+
+\section{Formação Acadêmica}
+\educationHeading{Bacharel em Ciência da Computação}{UNIP - Universidade Paulista}{Santos, SP}{2018 - 2021}
+\observacao{Com bolsa integral do PROUNI}
+\newline
+\sectionsep
+
+\educationHeading{Técnico em Informática para Internet}{ETEC Itanhaém}{Itanhaém, SP}{2015 - 2017}
+\observacao{Curso técnico integrado ao Ensino Médio}
+\newline
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projetos
+%--------------------------------------------------------------
+
+\section{Projetos}
+
+\projectHeading{Site inspirado no jogo Undertale}{https://github.com/marelps/site-undertale}{CSS/HTML, JAVASCRIPT}
+Site criado em duas página inspirado no jogo Undertale. A página inicial foi inspirada nas cenas de batalha do jogo onde é possível colocar quatro outros links, a segunda página criada foi numa inspirada no menu de pause/inventário do jogo.\\
+\sectionsep
+
+\projectHeading{Site inspirado no jogo League of Legends}{https://github.com/marelps/site-league-of-legends}{CSS/HTML, JAVASCRIPT}
+Site criado para treinar efeitos visuais principalmente posicionamento de objetos e animação inspirado no menu de inicialização do jogo League of Legends.
+\sectionsep
+
+\projectHeading{Portfólio}{https://marelps.github.io}{CSS/HTML, Javascript}
+Portfólio feito como vitrine aos meus projetos e estudos feitos\\
+\sectionsep
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+
+\section{Skills}
+\begin{skillList}
+    \singleItem{Linguagens:}{Java, Python, C\#, PHP, MySQL}
+    \\
+    \singleItem{Desenvolvimento Web:}{JavaScript, TypeScript, HTML/CSS}
+    \\
+    \singleItem{Tecnologias:}{Git, Apache, \LaTeX, Macro Excel}
+\end{skillList}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Atividades Complementares
+%--------------------------------------------------------------
+
+\section{Trabalhos Voluntários}
+\educationHeading{Coordenadora de projetos}{First Up Empresa Junior}{UNIP - Campus Rangel | Santos - SP}{2019 até Jun-2020}
+\sectionsep
+
+\educationHeading{Desenvolvedora Front-End}{Lorem Impsu}{Projeto Quantum}{Out-2020 até Atualmente}
+\sectionsep
+
+\educationHeading{Desenvolvimento de Projetos Web}{Sakuras Esports e Sakuras Aurora}{}{Mar-2021 até Out-2021}
+\sectionsep
+
+\educationHeading{Coordenadora de desenvolvimento e automações e IA}{Sakuras Esports}{}{Jun-2021 até Out-2021}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Experiências Acadêmicas
+%--------------------------------------------------------------
+
+\section{Experiências Acadêmicas}
+\educationHeading{BTP:CODE – HACKATHON DOS PORTOS}{Maratona de programação de 30 horas para elaboração de uma solução para o desafio portuário previamente definido realizado na empresa BTP / Santos - SP}{Brasil Terminal Portuário | Santos - SP}{Abr 2019}
+\sectionsep
+
+\educationHeading{DATA SCIENCE - ABORDAGEM PRÁTICA COM PYTHON}{Curso realizado na faculdade introduzindo o Data Science com Python, com exemplos e aplicações reais}{UNIP - Campus Rangel | Santos - SP}{Out-2018}
+\sectionsep
+
+\end{document}

@@ -1,0 +1,1 @@
+Template criado por Overleaf para estudo ao LaTeX e também para a criação do currículo.
